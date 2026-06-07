@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+@font-face {
+    font-family:"fuente_titulos" ;
+    src: url(fonts/HedvigLettersSans-Regular.ttf);  
+}
+@font-face {
+    font-family:"fuente_texto" ;
+    src: url(fonts/HelveticaLTStd-Roman.otf);  
+}
+@font-face {
+    font-family:"fuente_negrita" ;
+    src: url(fonts/HelveticaLTStd-Bold.otf);  
+}
+@font-face {
+    font-family:"fuente_cursivabold" ;
+    src: url(fonts/HelveticaLTStd-BoldObl.otf);  
+}
+@font-face {
+    font-family:"fuente_light" ;
+    src: url(fonts/HelveticaLTStd-Light.otf);  
+}
+@font-face {
+    font-family:"fuente_cursiva" ;
+    src: url(fonts/HelveticaLTStd-Obl.otf);  
+}
+
+
+
+body {
+    background-color: rgba(54, 79, 61, 0.9) 90 69 100%;
+    font-family: "fuente_titulos";
+    font-family: "fuente_texto";
+    font-family: "fuente_light";
+    
+    
+}
+
+h2{
+    font-size: 5rem;
+    color: white;
+}
+header{
+    background-color: rgb(54, 79, 61, 0.9); 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+section{
+    width: 100%;
+    height:100% ;
+    padding: 3rem;
+    margin:1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+section p{
+    width: 50%;
+    margin-left: auto;
+    text-align: justify;
+    color: white;
+}
+main{
+    background-color: rgb(54, 79, 61, 0.9);
+}
+a{ 
+    display: inline-block;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    text-decoration: none;
+    color:#FFFFFF;
+    transition: 0.3s;
+    font-size: 1em;
+    font-family: "fuente_light";
+    padding-right: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    margin-left: 0rem; ;
+    margin-right: 0rem ;
+   background-color: rgb(54, 79, 61, 0.9);
+
+}
+.topnav {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: "fuente_light";
+    font-size: 1rem;
+}
+
+nav a:hover{
+   color:#000000;
+}
+#quienes_somos{
+    background-image: url(../SCRIPTORIOUM/img/escaleras.jpg);
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 5rem 5rem 5rem 5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#que_queremos_lograr{
+    display: flex;
+    background-image: url(img/que_queremos_lograr2.jpg);
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 5rem 5rem 5rem 5rem;
+    background-size: cover;
+    background-position: 0rem -30rem;
+    background-repeat: no-repeat;
+}
+#valores{
+    background-image: url(img/valores.png);
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 5rem 5rem 5rem 5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+header img{
+    width:100%;
+    height:60vh;
+    object-fit: cover;
+    object-fit: 0rem -25rem;
+   
+}
+#historia{
+    background-image: url(img/nuestra_historia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 5rem 5rem 5rem 5rem;
+   
+}
+
+.hero{
+    position: relative;
+    z-index: 10000;
+  
+}
+.topnav {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: "fuente_light";
+    font-size: 1rem;
+}
+article{
+    width: 100%;
+    height: 30%;
+}
+article img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
